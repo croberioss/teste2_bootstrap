@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claudio Shoes</title>
+
+    <link rel="stylesheet" href="libs/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div id="carousel-exemple" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="./images/cat-1151519_960_720.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Foto de um gatito curioso</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="./images/cat-2934720_960_720.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Foto de um gatito mini pistola</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="./images/cat-7498364_960_720 (1).jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Foto de um gatito preguiçoso</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemple" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" data-bs-target="#carousel-exemple" data-bs-slide="next" type="button" >
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemple" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemple" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemple" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <article class="card text-bg-dark">
+                    <header class="card-header">
+                        Desenvolvimneto Web
+                    </header>
+                    <img src="https://via.placeholder.com/80x80" alt="">
+                    <body class="card-body">
+                        <h4 class="card-title">Card do Bootstrap</h4>
+                        <p class="card-text">Conheça os card do Bootstrap e suas variações</p>
+                        <a class="btn btn-primary" href="#">Saiba mais</a>
+                    </body>
+                    <footer class="card-footer">
+                        <time>16/03/2023 às 10:49</time>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-4">
+                <div class="card text-bg-dark">
+                    <img src="https://via.placeholder.com/80x80" alt="">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Título do card</h4>
+                        <h5 class="card-subtitle">Subtítulo</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, minima ratione totam deleniti accusamus</p>
+                        <a class="btn btn-primary" href="#">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-bg-dark">
+                    <div class="card-header">
+                        Cabeçalho do card
+                    </div>
+                    <img src="https://via.placeholder.com/80x80" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Título do card</h4>
+                        <h5 class="card-subtitle">Subtítulo</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, minima ratione totam deleniti accusamus</p>
+                        <a class="btn btn-primary" href="#">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./libs/bootstrap.bundle.min.js"></script>
+</body>
+</html>
